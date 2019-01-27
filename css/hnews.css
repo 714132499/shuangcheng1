@@ -1,0 +1,27 @@
+﻿.clear:after{ content:""; display:block; clear:both; visibility:hidden;}
+.clear{ zoom:1;}
+.w1200 { width:1200px; height:340px;  margin:0 auto; overflow:hidden;}
+.pt5 { padding-top:5px;}
+.pt30 { padding-top:30px;}
+.tit1{ width:100%; height:30px; line-height:30px;  font-size:18px; color:#333333;}
+.tit1 .more { float:right; display:inline-block; background:url(../images/jia.jpg) right 10px no-repeat; padding-right:15px;color:#999999; font-size:12px;}
+.tit1 span { font-size:16px; color:#999999}
+
+.index_service_m,.index_service_focus{ width:100%; height:210px; position:relative; overflow:hidden;}
+.index_service_m ul{ float:left;}
+.index_service_m li{ width:399px; padding-right:1px; float:left;}
+.index_service_m li img{ width:399px; height:238px;}
+.w9999{ width:9999px;}
+.prev,.next{ width:55px; height:56px; cursor:pointer; position:absolute; top:180px;}
+.prev{ left:0; background:url(../images/left.png) no-repeat 0 0;}
+.next{ right:0; background:url(../images/right.png) no-repeat 0 0;}
+
+.kctit1 { color:#FFFfff; font-size:16px; font-weight:bold; padding-top:5px; display:inline-block}
+.kctit2 { padding:15px 0;}
+.kctit2 a { color:#FFF;}
+.kctit3 { color:#FFFFFF; font-size:14px; font-weight:bold;}
+.kctit3 a { color:#FFF;}
+.kc1 { height:200px; padding:10px 30px; background:#6A6A6A; color:#FFF;}
+.kc2 { height:200px; padding:10px 30px; background:#006f00; color:#FFF;}
+.kc3 { height:200px; padding:10px 30px; background:#585858; color:#FFF;}
+

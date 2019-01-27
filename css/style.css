@@ -1,0 +1,77 @@
+﻿body {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	background: #fff;
+	font-size: 12px;
+	color: #333;
+}
+h1{font-size:20px;padding:20px 0 0 0;text-align:center;}
+h2, h3, h4, h5, h6 {
+	font-size: 12px;
+}
+ol, ul, li, p, h2, h3, h4, h5, h6, dl, dt, dd, form, input, fieldset, select, textarea, object, embed {
+	margin: 0;
+	padding: 0;
+}
+input, img {
+	vertical-align: middle;
+}
+
+
+.services {
+	float: left;
+}
+.services .con {
+	background: url(../images/service.png) no-repeat 0 0;
+	width: 127px;
+	height: 368px;
+	position: relative;
+}
+.synei {  font-size: 12px;color: #656565;line-height: 18px;}
+.services .shares {
+	position: absolute;
+	left: 10px;
+	top: 275px;
+	white-space: nowrap;
+	color: #666;
+}
+.services .shares img {
+	margin-right: 5px;
+}
+.services li {
+	text-align: center;
+}
+.services .qq {
+	padding-top: 105px;
+}
+.services .name {
+	padding-top: 8px;
+	float: left;
+	display: block;
+	width: 60px;
+	text-align: right;
+}
+#kuzhan .s-btn {
+	background-position: 0 -89px;
+	width: 38px;
+	height: 198px;
+	margin-top: 104px;
+	float: left;
+}
+#kuzhan .Obtn {
+	background: url(../images/service.png) no-repeat -331px -53px;
+	float: left;
+	width: 39px;
+	height: 197px;
+	margin-top: 30px;
+	margin-left: -1px;
+}
+#kuzhan a.wx {
+	position: absolute;
+	top: 166px;
+	left: 15px;
+	overflow: hidden;
+	text-indent: -999em;
+	display: block;
+	width: 95px;
+	height: 95px;
+}

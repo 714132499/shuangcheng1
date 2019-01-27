@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<link href="images/style4.css" rel="stylesheet" type="text/css">
+<title>漯河江山天安新型建材有限公司</title>
+<SCRIPT type="text/javascript" src="images/jQuery.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="images/jquery.cookie.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 9.00.8112.16520"></HEAD>
+    <style type="text/css"> 
+
+         .box {height:70px;  float:left; width:415px; overflow: hidden; position:relative;   } 
+         .box li { display:block; float:left; margin-left:0; margin-right:32px; width:192px; height:70px;background:#BBB;font-size:50px;color:#ccc;line-height:70px;text-decoration:none;text-align:center; cursor:pointer;} 
+         .box li:hover { color:#999; } 
+         .box li.active { background-position:-215px 0; color:#555;cursor:default;} 
+         a.prev, a.next {background:url(upload/sc/prev.png) no-repeat 0 0; display:block;width:73px;height:70px; float:left; margin:0 0 0 0; cursor:pointer;} 
+         a.next { background-image:url(upload/sc/next.png)} 
+        .scroll_list{ width:500em; position:absolute;  } 
+     </style> 
+     <!--   引入jQuery --> 
+     <script src="http://jt.875.cn/js/jquery.js" type="text/javascript"></script> 
+     <script type="text/javascript"> 
+     $(function(){ 
+       var page= 1; 
+       var i = 2;//每版四个图片 
+        
+            
+     //向右滚动 
+      $(".next").click(function(){ //点击事件 
+        
+              var v_wrap = $(this).parents(".scroll"); // 根据当前点击的元素获取到父元素 
+              var v_show = v_wrap.find(".scroll_list"); //找到视频展示的区域 
+              var v_cont = v_wrap.find(".box"); //找到视频展示区域的外围区域 
+               
+              var v_width = v_cont.width(); 
+              var len = v_show.find("li").length; //我的视频图片个数 
+              var page_count = Math.ceil(len/i); //只要不是整数，就往大的方向取最小的整数 
+  
+          if(!v_show.is(":animated")){ 
+              if(page == page_count){ 
+                  v_show.animate({left:'0px'},"slow"); 
+                  page =1;  
+                 }else{ 
+                  v_show.animate({left:'-='+v_width},"slow"); 
+                  page++; 
+              } 
+          } 
+           
+       }); 
+        
+      //向左滚动 
+           $(".prev").click(function(){ //点击事件 
+        
+              var v_wrap = $(this).parents(".scroll"); // 根据当前点击的元素获取到父元素 
+              var v_show = v_wrap.find(".scroll_list"); //找到视频展示的区域 
+              var v_cont = v_wrap.find(".box"); //找到视频展示区域的外围区域 
+               
+              var v_width = v_cont.width(); 
+              var len = v_show.find("li").length; //我的视频图片个数 
+              var page_count = Math.ceil(len/i); //只要不是整数，就往大的方向取最小的整数 
+  
+          if(!v_show.is(":animated")){ 
+              if(page == 1){ 
+              v_show.animate({left:'-='+ v_width*(page_count-1)},"slow"); 
+              page =page_count;  
+              }else{ 
+              v_show.animate({left:'+='+ v_width},"slow"); 
+              page--; 
+          } 
+          } 
+       });  
+              
+      
+     }); 
+      
+     </script> 
+<body>
+<DIV id="mian">
+<DIV class="navbar navbar-fixed-top">
+<DIV class="mid">
+<UL class="nav" style="padding-top:80px;">
+ <LI><A href="index.html">首&nbsp;&nbsp;&nbsp;&nbsp;页</A></LI>
+  <LI><A href="Pro1.html">默克系列</A></LI>
+  <LI class="current"><A href="Pro2.html">金双诚系列</A></LI>
+  <LI><A href="Pro3.html">金新华系列</A></LI>
+</UL>
+<DIV class="logo" style="background: url(images/logo2.png);"></DIV>
+<div class="login"><a rel="nofollow" href="login.html"><img src="images/login.png" width="59" height="32" /></a></div>
+	<div class="searchTop d3">
+	<form>
+	  <input type="text" placeholder="搜 索">
+	  <button type="submit"></button>
+	</form>
+	</div>
+</DIV>
+</DIV>
+<div style="background-color:#FFFFFF;width:100%;  height:118px">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div style="background:url(upload/sc/sc_qgf_bg.jpg) no-repeat center center;"> 
+<DIV class="mid"  style="width:1200px; height:814px;">
+     <div class="scroll" style="margin: 0 auto;width:568px; padding-top:620px; padding-left:4px"> 
+       <!-- "prev page" link --> 
+         <a class="prev" href="#"></a> 
+             <div class="box"> 
+              
+                 <div class="scroll_list"> 
+                     <ul> 
+                         <li><a href="sc_qigongfen_fb.html"><img src="upload/sc/sc_qgf_btn_1.png"/></a> </li> 
+                         <li><a href="sc_qigongfen_tmhj.html"><img src="upload/sc/sc_qgf_btn_2.png"/></a> </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         <!-- "next page" link --> 
+         <a  class="next" href="#"></a> 
+     
+     </div> 
+</DIV>
+</div>
+<div style="background-color:#202020; height:36px;">
+<DIV class="mid"><table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="809" height="36" align="center" style="font-size:14px; color:#FFFFFF;padding-left:5px;font-family:Microsoft YaHei, Arial, Helvetica, sans-serif;"><A href="Pro1.html"><font color="#FFFFFF">默克</font></A>&nbsp;&nbsp;&nbsp;&nbsp;<A href="Pro2.html"><font color="#FFFFFF">金双诚</font></A>&nbsp;&nbsp;&nbsp;&nbsp;<A href="Pro3.html"><font color="#FFFFFF">金新华</font></A>&nbsp;&nbsp;&nbsp;&nbsp;电话：400-100-6767&nbsp;&nbsp;&nbsp;&nbsp;传真：0395-6150116&nbsp;&nbsp;&nbsp;&nbsp;地址：中国漯河郾城区孟庙镇纬10路1号</td>
+
+  <tr>
+ 
+</table></DIV>
+</div>
+
+<div style="background-color:#0e0e0e; height:52px;">
+<DIV class="mid"><table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="809" height="70" align="center" style="font-size:12px; color:#FFFFFF;padding-left:5px;">&nbsp;&nbsp;&nbsp;&nbsp;Copyright 2012-2015&#169;lhtianan.com.cn company All right reserved 版权所有漯河江山天安新型建材有限公司&nbsp;&nbsp;<br><br></td>
+
+  <tr>
+ 
+</table></DIV>
+</div>
+
+</DIV>
+</body>
+</html>

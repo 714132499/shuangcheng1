@@ -1,0 +1,62 @@
+
+section{
+    margin-top:135px;
+    position:relative;
+}
+#mian>.navbar{height:150px;}
+.login_bgImg{
+    width: 100%;
+    height: 692px;
+    background: url(../images/login.jpg) center no-repeat;
+}
+.login_mid{
+    width: 513px;
+    height:356px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-256px;
+    margin-top:-178px;
+    border-radius:10px;
+    background-color: rgba(225,225,225,0.3);
+    text-align: center;
+}
+.login_mid>div{
+    margin-top:86px;
+}
+.login_mid li input:not(.thrLi),button{
+    width: 246px;
+    height:38px;
+    outline:0;
+    font-size: 15px;
+    border-radius:8px;
+    margin-bottom:14px;
+    background-color: #EEEEEE;
+}
+.login_mid li:nth-child(3){
+    margin-left:220px;
+}
+.login_mid li:last-child input{
+    width: 290px;
+    background-color: #101010;
+    color:#ffffff;
+    border: none;
+}
+.login_mid li:last-child input:hover{cursor: pointer;}
+.firstLi input,.secondLi input{
+    padding-left:40px;
+}
+.firstLi input{
+    background: url(../images/user.jpg) 9px no-repeat;
+}
+.secondLi input{
+    background: url(../images/key.jpg) 9px no-repeat;
+}
+.login_mid li:nth-child(3){
+    width: 246px;
+    height:38px;
+}
+.thrLi{margin-left: 20px;width: 10px;}
+/*==============================================*/
+
+¡¡

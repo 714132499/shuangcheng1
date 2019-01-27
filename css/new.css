@@ -1,0 +1,201 @@
+#mian>.navbar{height:150px;}
+/*============================================:*/
+.searchTop input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#ffffff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#ffffff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#ffffff;
+}
+
+/*==================大图片==========================:*/
+
+.Img_top{
+    width: 100%;
+    height: 700px;
+    margin-top:150px;
+    text-align: center;
+    background:url(../images/article.jpg) center no-repeat;
+}
+/*========================================================================下侧部分=================================*/
+.bg_btm{
+    width: 100%;
+    height:5514px;
+    background-color: #f0f2f4;
+}
+.partText_1{
+    width: 1120px;
+    height:1300px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position:relative;
+}
+/*=======================第一部分==============================*/
+.partOne{
+    width: 100%;
+    height:1463px;
+    background-color:#ffffff;
+    position:absolute;
+    top:-155px;
+    left:0;
+}
+.partOne>p{
+    margin:30px 0 20px  30px;
+}
+.partOne_top1,.partOne_top2{
+    width: 1066px;
+    height:655px;
+    margin:0 auto;
+}
+.partOne ul img{height: 496px;}
+.partOne ul li{
+    float:left;
+    border:1px solid #dddddd;
+    box-shadow: 2px 2px 25px;
+    margin-top:81px;
+    height:496px;
+    overflow: hidden;
+}
+.partOne_top1{
+    background: url(../images/partOne_top1.jpg) center no-repeat;
+}
+.partOne_top1>ul{
+    margin-left:55px;
+}
+.partOne_top1>ul li{
+    margin-right:30px;
+}
+.partOne_top2{
+    margin:27px 0 27px 27px;
+    background: url(../images/partOne_top2.jpg) center no-repeat;
+}
+.partOne_top2>ul{
+    float:right;
+    margin-right:55px;
+}
+.partOne_top2>ul li{
+    margin-left:30px;
+}
+/*=======================第二部分==============================*/
+.partText_2{
+    width: 1200px;
+    height:900px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.partTwo{
+    width: 100%;
+    height: 883px;
+    text-align: center;
+    background:url(../images/partTwo.jpg) center no-repeat;
+}
+.partTwo_mid{
+    width: 1200px;
+    height: 900px;
+    background-color: transparent;
+}
+.partTwo_mid>ul{
+    float:right;
+    margin-right:55px
+}
+.partTwo_mid>ul img{height:557px; }
+.partTwo_mid>ul li{
+    margin-left:30px;
+
+}
+.partTwo_mid ul li{
+    float:left;
+    border:1px solid #dddddd;
+    box-shadow: 2px 2px 25px;
+    margin-top:210px;
+    height:557px;
+    overflow: hidden;
+}
+.partTwo_mid ul .font{
+    border:0;
+    box-shadow: 0px 0px 0px;
+}
+/*=======================第三部分==============================*/
+/*===========001================*/
+.partThre{
+    width: 100%;
+    height: 3000px;
+    background-color:#00ff00 ;
+}
+.partText_3{
+    width: 100%;
+    height:766px;
+    margin: 0 auto;
+    background-color: #f1f2f4;
+}
+.partThre_top{
+    width: 1200px;
+    margin: 0 auto;
+    height: 766px;
+    background-color:#f1f2f4;
+}
+.partThre_top .topUl li{
+    width: 585px;
+    height: 492px;
+    line-height: 492px;
+    float:left;
+    text-align: center;
+    margin-left:30px;
+    margin-bottom:30px;
+}
+.partThre_top .topUl li img{
+    width: 130px;
+    height: 320px;
+    margin:0 8px;
+    border:1px solid #dddddd;
+    box-shadow: 1px 1px 15px;
+}
+.partThre_top .topUl li:first-child{background-image: url(../images/horse.jpg);  margin-left:0;}
+.partThre_top .topUl li:nth-child(2){background-image: url(../images/guy.jpg)}
+.partThre_top .topUl li:nth-child(3){background-image: url(../images/car.jpg);  margin-left:0;}
+.partThre_top .topUl li:last-child{background-image: url(../images/lover.jpg)}
+/*===========002==============*/
+.partText_4{
+    width: 100%;
+    height:640px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.partText_5{
+    width: 100%;
+    height:1080px;
+    margin: 0 auto;
+    background-color: #f1f2f4;
+}
+.partText_6{
+    width: 100%;
+    height:845px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.middle>li{
+    width: 370px;
+    height:800px;
+    float:left;
+    margin: 68px 0 0 45px;
+}
+.middle>li:first-child,
+.middle>li:nth-child(4){margin-left:0;}
+/*===========003==============*/
+.bottom>li{
+    height:357px;
+    float:left;
+    margin: 96px 0 0 36px;
+}
+.bottom>li:first-child{margin-left:0;}
+/*==============foot===============*/
+.foot{
+    width: 100%;
+    height: 176px;
+    background: url(../images/foot.jpg) center no-repeat;
+}
